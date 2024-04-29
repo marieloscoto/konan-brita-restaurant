@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-register {
+    width: 400px;
+    background: beige;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: Arial;
+    color: black ;
+    box-shadow: 7px 13px 37 #EDA919;
+}
+.form-register h4{
+font-size: 22px;
+margin-bottom: 20px;
+}
+.controls {
+    width:100% ;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #D9CEAC; 
+    font-family: Arial;
+    font-size: 18px ;
+    color: black;
+}
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    line-height:40px ;
+}
+.form-register a {
+    color: gray;
+    text-decoration: none;
+}
+.form-register a:hover {
+    color: #cdad9d;
+    text-decoration: underline;
+}
+.form-register .buttons {
+    width: 100%;
+    background: white;
+    border: none;
+    padding: 12px 0 ;
+    color: black;
+    margin-left: 16px;
+    font-size: 15px;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #d9ceac;
+}
+header{
+    background-color: white;
+    width: 100%;
+    clear: both;
+    display: table;
+}
+img{
+    width: 100px;
+    height: 100px;
+     float: 8px;
+
+}
+nav{
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 25px;
+    padding: 25px;
+    float: left;
+    position: relative;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav ul li:hover{ 
+background-color: #d52f26;
+border-radius: 20px;
+
+}
+li img{
+    width: 20px;
+    height: 20px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0%;
+}
+.container{ 
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #d52f26;}
+    button{
+        padding: 10px 20px;
+        background-color: bisque;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: #d52f26;}
